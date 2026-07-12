@@ -1,2 +1,2 @@
-# in this repo I uplode all the projects i DID TILL NOW
-- In JOB I creatw a simple job recommendation system
+# In this repo I uplode all the projects I did till now
+- In JOB I create a simple job recommendation system
