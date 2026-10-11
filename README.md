@@ -1,25 +1,18 @@
 # Project Collection
 
-This repository is a small collection of application work that has not yet been fully separated into standalone repositories. New independent projects should live in their own repositories; this repository is being kept as a transition/index for the remaining work.
+This repository is a small collection of application work that has not yet been fully separated into standalone repositories. It is being kept as an index for projects that remain here.
 
 ## Projects
 
-### Job recommendation system — `JOB/`
+### Job recommendation system
 
-A resume-based job recommendation prototype using skill extraction, TF-IDF, cosine similarity, and a Logistic Regression classifier.
+Moved into its own repository: [job-recommendation-system](https://github.com/KunalGoyal0601/job-recommendation-system).
 
-- Entry point: `JOB/app.py`
-- Recommendation logic: `JOB/recommender.py`
-- Classification: `JOB/classifier.py`
-- Resume parsing and skill extraction: `JOB/resume_parser.py`, `JOB/skill_extractor.py`
-- Dependencies: `JOB/requirements.txt`
-- Project-specific documentation: [`JOB/README.md`](JOB/README.md)
-
-This project still needs to be copied into a dedicated repository and tested from a clean environment.
+The standalone repository contains the Tkinter app, resume parser, skill extractor, TF-IDF/cosine-similarity job recommender, sample dataset, dependencies, and setup documentation. The current role suggestion uses similarity matching rather than a trained Logistic Regression classifier. It remains a learning prototype and has not been validated from a clean environment.
 
 ### MCQ generator
 
-Moved into its own repository: [`mcqgen`](https://github.com/KunalGoyal0601/mcqgen). The standalone copy includes a README, dependency list, environment-variable example, ignore rules, source package, and a notebook with saved outputs cleared. It is still an experimental prototype and has not been validated from a clean environment.
+Moved into its own repository: [mcqgen](https://github.com/KunalGoyal0601/mcqgen). The standalone copy includes a README, dependency list, environment-variable example, ignore rules, source package, and a notebook with saved outputs cleared. It is still an experimental prototype and has not been validated from a clean environment.
 
 ### Medical chatbot — pending review
 
@@ -28,9 +21,8 @@ The current tree contains `medical_bot/` and `Medical chat bot`. Their relations
 ## Remaining cleanup
 
 1. Compare the medical-chatbot paths and decide whether they are one project or separate projects.
-2. Move the job recommender to its own repository once the destination is created and verified.
-3. Review datasets for licensing, personal data, and redistribution restrictions before making any project public.
-4. Add tests and clean setup instructions to each standalone project.
+2. Review datasets for licensing, personal data, and redistribution restrictions before making any project public.
+3. Add tests and clean setup instructions to each standalone project.
 
 ## Safety and reproducibility
 
