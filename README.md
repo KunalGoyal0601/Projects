@@ -1,6 +1,6 @@
 # Project Collection
 
-This repository is a small collection of application work that has not yet been fully separated into standalone repositories. It is being kept as an index for projects that remain here.
+This repository is a small index for project work that has not yet been moved into standalone repositories.
 
 ## Projects
 
@@ -14,21 +14,21 @@ The standalone repository contains the Tkinter app, resume parser, skill extract
 
 Moved into its own repository: [mcqgen](https://github.com/KunalGoyal0601/mcqgen). The standalone copy includes a README, dependency list, environment-variable example, ignore rules, source package, and a notebook with saved outputs cleared. It is still an experimental prototype and has not been validated from a clean environment.
 
-### Medical chatbot — pending review
+### Medical chatbot — not implemented here yet
 
-The current tree contains `medical_bot/` and `Medical chat bot`. Their relationship is not known yet, so neither should be merged or removed until their contents are compared.
+The previous `medical_bot/` and `Medical chat bot` paths contained only empty placeholder files; no implementation was present to migrate. These placeholders have been removed. Create a dedicated repository or add the actual source files when the project is ready.
 
 ## Remaining cleanup
 
-1. Compare the medical-chatbot paths and decide whether they are one project or separate projects.
-2. Review datasets for licensing, personal data, and redistribution restrictions before making any project public.
-3. Add tests and clean setup instructions to each standalone project.
+1. Review public repositories for accidentally committed credentials, personal information, and data that should not be redistributed.
+2. Review each project's setup instructions and test from a clean environment.
+3. Add tests and appropriate data/source licensing notes where needed.
 
 ## Safety and reproducibility
 
 - Never commit API keys, tokens, passwords, private applicant information, or medical information.
+- If a real credential has been committed, revoke or rotate it; deleting it from the latest commit alone does not remove it from Git history.
 - Keep local virtual environments, logs, caches, generated outputs, and large raw datasets out of Git.
-- Document dependencies and Python versions; test instructions from a fresh environment.
 - A README documents intent and current structure; it is not proof that the application runs.
 
 ## Author
